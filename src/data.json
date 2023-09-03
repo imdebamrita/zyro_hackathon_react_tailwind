@@ -2,7 +2,7 @@
     "problems": [
         {
             "id": 0,
-            "logo": "src/assets/logo/iot.png",
+            "logo": "./iot.png",
             "title": "Electronics & IoT",
             "description": "as dfghj klasd fghjk asdfghjk sdfghjk dfghjk dfghjk ghj",
             "link": "#",
@@ -10,7 +10,7 @@
           },
           {
             "id": 1,
-            "logo": "src/assets/logo/ai_ml.png",
+            "logo": "./ai_ml.png",
             "title": "AI ML",
             "description": "as dfghj klasd fghjk asdfghjk sdfghjk dfghjk dfghjk ghj",
             "link": "#",
@@ -18,7 +18,7 @@
           },
           {
             "id": 2,
-            "logo": "src/assets/logo/mechatronics.png",
+            "logo": "./mechatronics.png",
             "title": "Mechatronics",
             "description": "as dfghj klasd fghjk asdfghjk sdfghjk dfghjk dfghjk ghj",
             "link": "#",
