@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Criteria() {
   return (
-    <div className="flex flex-col h-screen sm:h-[calc(50vh)] justify-center items-center bg-slate-950 text-white">
+    <div className="flex flex-col h-screen sm:h-[calc(50vh)] justify-center items-center  text-white">
       <h2 className="text-4xl my-16 sm:mb-16">Criteria</h2>
       <div className="m-1">
         <ul className="text-gray-500 list-disc list-inside dark:text-gray-400">

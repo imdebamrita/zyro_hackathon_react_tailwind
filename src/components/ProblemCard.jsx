@@ -2,7 +2,7 @@ import React from "react";
 
 export default function ProblemCard(problem) {
   return (
-    <div className="flex flex-col justify-center items-center m-5 max-w-sm backdrop-blur-sm bg-white/20  border-gray-200 rounded-lg shadow">
+    <div className="flex flex-col justify-center items-center m-5 max-w-sm backdrop-blur-sm bg-black/50  border-gray-200 rounded-lg shadow">
       <a href="#">
         <img
           className="w-[calc(70vw)] sm:w-[calc(20vw)]"

@@ -6,6 +6,7 @@ import Home from "./components/Home";
 import Timeline from "./components/Timeline";
 import Problems from "./components/Problems";
 import Criteria from "./components/Criteria";
+import Faq from "./components/Faq";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Timeline />
         <Problems />
         <Criteria />
+        <Faq />
       </div>
     </>
   );
