@@ -33,7 +33,7 @@ export default function Navbar() {
             </li>
             <li>
               <a
-                href="#"
+                href="#problems_section"
                 className="block py-2 pl-3 pr-4  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0"
               >
                 Problems
@@ -41,7 +41,7 @@ export default function Navbar() {
             </li>
             <li>
               <a
-                href="#"
+                href="#criteria_section"
                 className="block py-2 pl-3 pr-4 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0"
               >
                 Criteria
@@ -49,7 +49,7 @@ export default function Navbar() {
             </li>
             <li>
               <a
-                href="#"
+                href="#faq_section"
                 className="block py-2 pl-3 pr-4 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0"
               >
                 FAQs

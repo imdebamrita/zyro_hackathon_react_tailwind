@@ -3,7 +3,10 @@ import dataJson from "../data.json";
 
 export default function Faq() {
   return (
-    <div className="flex flex-col h-screen justify-center items-center text-white">
+    <div
+      id="faq_section"
+      className="flex flex-col h-screen justify-center items-center text-white"
+    >
       <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="text-3xl font-bold leading-tight sm:text-4xl lg:text-5xl my-16 sm:my-32">
