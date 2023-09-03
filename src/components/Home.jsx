@@ -1,9 +1,18 @@
 import React from "react";
 import zyro from "../assets/logo/zyro_vector_white.png";
+import blackhole_desktop from "../assets/background/blackhole_desktop.mp4";
 
 export default function Home() {
   return (
-    <div className="flex flex-col h-[calc(100vh)] justify-center items-center bg-slate-950 text-white">
+    <div className="flex flex-col h-screen justify-center items-center text-white">
+      <video
+        autoPlay
+        loop
+        muted
+        className="-z-50 w-screen h-screen object-cover fixed"
+      >
+        <source src={blackhole_desktop} type="video/mp4" />
+      </video>
       {/* <h1 className="text-8xl -top-16 m-2">ZYRO</h1> */}
       <img className="w-96" src={zyro} alt="ZYRO" />
       <br />
