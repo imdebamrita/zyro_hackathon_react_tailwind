@@ -38,11 +38,11 @@ function App() {
 
     setTimeout(() => {
       entry_classes = entry_classes.replace("flex", "hidden");
-      main_classes = main_classes.replace("hidden", "");
+      main_classes = main_classes.replace("hidden", " main_zoom_in");
 
       entry_page.className = entry_classes;
       main_page.className = main_classes;
-    }, 4000);
+    }, 3500);
   };
 
   return (
@@ -76,9 +76,9 @@ function App() {
           <br />
           <button
             onClick={enter}
-            className="relative inline-flex items-center px-64 py-1 overflow-hidden text-xl font-semibold text-white border-2 border-space-yellow rounded-sm skew-y-6 duration-200 hover:skew-y-0 hover:text-white group hover:bg-gray-50 hover:drop-shadow-black-2xl"
+            className="relative inline-flex items-center px-64 py-1 overflow-hidden text-xl font-semibold text-white border-2 border-black rounded-sm skew-y-6 duration-200 hover:skew-y-0 hover:text-black group hover:bg-gray-50 hover:drop-shadow-black-2xl"
           >
-            <span className="absolute left-0 block w-full h-0 transition-all bg-space-yellow opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
+            <span className="absolute left-0 block w-full h-0 transition-all bg-white opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
 
             <span className="relative">Enter</span>
             {/* <span class="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">

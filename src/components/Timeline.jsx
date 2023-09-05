@@ -1,6 +1,6 @@
 import React from "react";
 // import milkyway_desktop from "../assets/background/milkyway_desktop.mp4";
-import dataJson from "../data.json";
+import data from "../data.json";
 
 export default function Timeline() {
   return (
@@ -9,10 +9,10 @@ export default function Timeline() {
         id="timeline_section"
         className="flex flex-col h-[calc(100vh)] sm:h-[calc(50vh)] justify-center items-center text-white"
       >
-        <h2 className="text-4xl my-16 sm:my-24">Timeline</h2>
+        <h2 className="text-4xl font-bold my-16 sm:mt-24 mb-8">Timeline</h2>
 
         <ol className="items-center sm:flex mx-[calc(10vw)] ">
-          {dataJson.timelines.map((timeline) => {
+          {data.timelines.map((timeline) => {
             return (
               <li
                 key={timeline.id}

@@ -3,7 +3,7 @@
 html{
   scroll-behavior: smooth;
   background-color: black;
-  z-index: 0;
+  /* z-index: 0; */
 }
 
 .zoom_fade_in{
@@ -27,9 +27,6 @@ html{
   scale: 0.5;
   animation: zoom_fade_in_lite 4s linear 1s 1;
 }
-
-
-
 @keyframes zoom_fade_in_lite {
   0% {
     scale: 0.5;
@@ -37,10 +34,21 @@ html{
   50% {
     scale: 1;
   }
-
   100% {
     scale: 5;
 
   }
+}
 
+.main_zoom_in{
+  animation: main_zoom_in 1.5s linear 0s 1;
+}
+@keyframes main_zoom_in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+
+  }
 }

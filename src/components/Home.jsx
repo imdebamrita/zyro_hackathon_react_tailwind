@@ -9,7 +9,7 @@ export default function Home() {
         autoPlay
         loop
         muted
-        className="-z-10 w-screen h-screen object-cover fixed"
+        className="-z-50 w-screen h-screen object-cover fixed"
       >
         <source src={milkyway_desktop} type="video/mp4" />
       </video>

@@ -1,21 +1,24 @@
 import React from "react";
-import dataJson from "../data.json";
+import data from "../data.json";
 
 export default function Faq() {
   return (
     <div
       id="faq_section"
-      className="flex flex-col h-screen justify-center items-center text-white"
+      className="flex flex-col h-[calc(100svh)] justify-center items-center text-white"
     >
       <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
-        <div className="max-w-2xl mx-auto text-center">
+        {/* <div className="max-w-2xl mx-auto text-center">
           <h2 className="text-3xl font-bold leading-tight sm:text-4xl lg:text-5xl my-16 sm:my-32">
             Frequently Asked Questions
           </h2>
-        </div>
+        </div> */}
+        <h2 className="text-4xl font-bold my-16 sm:mt-24 mb-8">
+          Frequently Asked Questions
+        </h2>
         <div className="max-w-3xl mx-auto mt-8 space-y-4 md:mt-16">
           <ul className="max-w-2xl mx-auto mt-20 divide-y backdrop-blur-sm bg-black/50 shadow shadow-blue-600 rounded-xl">
-            {dataJson.faqs.map((faq) => {
+            {data.faqs.map((faq) => {
               return (
                 <li key={faq.id}>
                   <details className="group">

@@ -1,6 +1,6 @@
 import React from "react";
 import ProblemCard from "./ProblemCard";
-import dataJson from "../data.json";
+import data from "../data.json";
 
 export default function Problems() {
   return (
@@ -8,9 +8,11 @@ export default function Problems() {
       id="problems_section"
       className="flex flex-col sm:h-screen h-[calc(180vh)] justify-center items-center text-white"
     >
-      <h2 className="text-4xl my-16 sm:my-32">Problem Statements</h2>
+      <h2 className="text-4xl font-bold my-16 sm:mt-24 mb-8">
+        Problem Statements
+      </h2>
       <div className="flex flex-col  sm:flex-row">
-        {dataJson.problems.map((e) => {
+        {data.problems.map((e) => {
           return (
             <ProblemCard
               key={e.id}
