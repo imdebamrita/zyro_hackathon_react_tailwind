@@ -1,6 +1,5 @@
 import React from "react";
 import zyro from "../assets/logo/zyro_vector_white.png";
-import blackhole_desktop from "../assets/background/blackhole_desktop.mp4";
 import milkyway_desktop from "../assets/background/milkyway_desktop.mp4";
 
 export default function Home() {
@@ -10,7 +9,7 @@ export default function Home() {
         autoPlay
         loop
         muted
-        className="-z-50 w-screen h-screen object-cover fixed"
+        className="-z-10 w-screen h-screen object-cover fixed"
       >
         <source src={milkyway_desktop} type="video/mp4" />
       </video>

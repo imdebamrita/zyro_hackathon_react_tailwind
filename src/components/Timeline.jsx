@@ -1,5 +1,5 @@
 import React from "react";
-import milkyway_desktop from "../assets/background/milkyway_desktop.mp4";
+// import milkyway_desktop from "../assets/background/milkyway_desktop.mp4";
 import dataJson from "../data.json";
 
 export default function Timeline() {
@@ -9,14 +9,6 @@ export default function Timeline() {
         id="timeline_section"
         className="flex flex-col h-[calc(100vh)] sm:h-[calc(50vh)] justify-center items-center text-white"
       >
-        <video
-          autoPlay
-          loop
-          muted
-          className="z-40 w-screen h-[calc(50vh)] object-cover fixed"
-        >
-          <source src={milkyway_desktop} type="video/mp4" />
-        </video>
         <h2 className="text-4xl my-16 sm:my-24">Timeline</h2>
 
         <ol className="items-center sm:flex mx-[calc(10vw)] ">
