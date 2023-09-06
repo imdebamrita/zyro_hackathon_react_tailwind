@@ -1,4 +1,7 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+
 
 html{
   scroll-behavior: smooth;
@@ -51,4 +54,22 @@ html{
     opacity: 1;
 
   }
+}
+
+.filter{
+  -webkit-filter: drop-shadow(5px 5px 10px black);
+}
+
+.animate-bounce_ {
+  animation: bounce_ 4s 2s infinite;
+}
+
+@keyframes bounce_ {
+  0%, 50%, 100% {
+      scale: 1;
+  }
+  25% {
+      scale: 0.8
+  }
+
 }

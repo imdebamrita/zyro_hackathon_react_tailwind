@@ -8,6 +8,7 @@ import Problems from "./components/Problems";
 import Criteria from "./components/Criteria";
 import Faq from "./components/Faq";
 import Footer from "./components/Footer";
+import Prize from "./components/Prize";
 
 import zyro from "./assets/logo/zyro_vector_white.png";
 import blackhole_desktop from "./assets/background/blackhole_desktop.mp4";
@@ -49,7 +50,7 @@ function App() {
     <>
       <div
         id="enter_page"
-        className="flex flex-col h-screen justify-center items-center text-white"
+        className="flex flex-col h-screen overflow-hidden justify-center items-center text-white font-body"
       >
         <video
           id="blackhole"
@@ -70,13 +71,13 @@ function App() {
           <source id="video_src" src={stars_desktop} type="video/mp4" />
         </video>
         <div id="text" className="flex flex-col justify-center items-center">
-          <img className="w-96 px-4 sm:px-0" src={zyro} alt="ZYRO" />
+          <img className="w-96 px-4 filter sm:px-0" src={zyro} alt="ZYRO" />
           <h3 className="m-3 text-lg">Presented By KGEC - Robotics Society</h3>
           <br />
           <br />
           <button
             onClick={enter}
-            className="relative inline-flex items-center px-64 py-1 overflow-hidden text-xl font-semibold text-white border-2 border-black rounded-sm skew-y-6 duration-200 hover:skew-y-0 hover:text-black group hover:bg-gray-50 hover:drop-shadow-black-2xl"
+            className="relative inline-flex items-center px-20 sm:px-56 py-1 overflow-hidden text-xl font-semibold text-white border-2 border-black rounded-sm duration-200 hover:skew-y-0 hover:text-black group hover:bg-gray-50 hover:drop-shadow-black-2xl animate-bounce_"
           >
             <span className="absolute left-0 block w-full h-0 transition-all bg-white opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
 
@@ -87,12 +88,13 @@ function App() {
           </button>
         </div>
       </div>
-      <div id="main_page" className="text-center hidden">
+      <div id="main_page" className="text-center hidden font-body">
         <Navbar />
         <Home />
         <Timeline />
         <Problems />
         <Criteria />
+        {/* <Prize /> */}
         <Faq />
         <Footer />
       </div>

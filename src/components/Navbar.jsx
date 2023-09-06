@@ -3,13 +3,10 @@ import zyro from "../assets/logo/zyro_vector_white.png";
 
 export default function Navbar() {
   return (
-    <nav className="backdrop-blur-sm bg-white/30 ">
+    <nav className="backdrop-blur-sm bg-white/30">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 absolute">
         <a href="#" className="flex items-center">
           <img src={zyro} className="h-8 mr-3" alt="Zyro Logo" />
-          {/* <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-            Zyro
-          </span> */}
         </a>
 
         <div className="hidden w-full md:block md:w-auto" id="navbar-default">
@@ -17,7 +14,7 @@ export default function Navbar() {
             <li>
               <a
                 href="#"
-                className="block py-2 pl-3 pr-4  rounded md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0"
+                className="block py-2 pl-3 pr-4 duration-150 rounded md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0"
                 aria-current="page"
               >
                 Home
@@ -26,7 +23,7 @@ export default function Navbar() {
             <li>
               <a
                 href="#timeline_section"
-                className="block py-2 pl-3 pr-4 rounded md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 "
+                className="block py-2 pl-3 pr-4 duration-150 rounded md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 "
               >
                 Timeline
               </a>
@@ -34,7 +31,7 @@ export default function Navbar() {
             <li>
               <a
                 href="#problems_section"
-                className="block py-2 pl-3 pr-4  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0"
+                className="block py-2 pl-3 pr-4 duration-150 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0"
               >
                 Problems
               </a>
@@ -42,7 +39,7 @@ export default function Navbar() {
             <li>
               <a
                 href="#criteria_section"
-                className="block py-2 pl-3 pr-4 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0"
+                className="block py-2 pl-3 pr-4 duration-150 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0"
               >
                 Criteria
               </a>
@@ -50,7 +47,7 @@ export default function Navbar() {
             <li>
               <a
                 href="#faq_section"
-                className="block py-2 pl-3 pr-4 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0"
+                className="block py-2 pl-3 pr-4 duration-150 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0"
               >
                 FAQs
               </a>

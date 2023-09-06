@@ -8,7 +8,7 @@ export default function () {
           <nav className="flex flex-wrap justify-center -mx-5 -my-2">
             <div className="px-5 py-2">
               <a
-                href="#"
+                href="https://kgec-robotics-society.github.io/#about"
                 className="text-base leading-6 text-gray-500 hover:text-white"
               >
                 About
@@ -16,7 +16,7 @@ export default function () {
             </div>
             <div className="px-5 py-2">
               <a
-                href="#"
+                href="https://kgec-robotics-society.github.io/#projects"
                 className="text-base leading-6 text-gray-500 hover:text-white"
               >
                 Projects
@@ -32,7 +32,7 @@ export default function () {
             </div>
             <div className="px-5 py-2">
               <a
-                href="#"
+                href="https://kgec-robotics-society.github.io/#domain"
                 className="text-base leading-6 text-gray-500 hover:text-white"
               >
                 Domains
@@ -40,7 +40,8 @@ export default function () {
             </div>
             <div className="px-5 py-2">
               <a
-                href="#"
+                href="mailto: 
+                kgecroboticssociety@gmail.com"
                 className="text-base leading-6 text-gray-500 hover:text-white"
               >
                 Contact
@@ -48,7 +49,7 @@ export default function () {
             </div>
             <div className="px-5 py-2">
               <a
-                href="#"
+                href="https://kgec-robotics-society.github.io/techFest/#"
                 className="text-base leading-6 text-gray-500 hover:text-white"
               >
                 TechFest
@@ -56,7 +57,10 @@ export default function () {
             </div>
           </nav>
           <div className="flex justify-center mt-8 space-x-6">
-            <a href="#" className="text-gray-400 hover:text-gray-500">
+            <a
+              href="https://www.facebook.com/kgecrs/"
+              className="text-gray-400 hover:text-gray-500"
+            >
               <span className="sr-only">Facebook</span>
               <svg
                 className="w-6 h-6"
@@ -71,7 +75,10 @@ export default function () {
                 ></path>
               </svg>
             </a>
-            <a href="#" className="text-gray-400 hover:text-gray-500">
+            <a
+              href="https://www.instagram.com/kgec_rs/"
+              className="text-gray-400 hover:text-gray-500"
+            >
               <span className="sr-only">Instagram</span>
               <svg
                 className="w-6 h-6"
@@ -86,18 +93,24 @@ export default function () {
                 ></path>
               </svg>
             </a>
-            <a href="#" className="text-gray-400 hover:text-gray-500">
-              <span className="sr-only">Twitter</span>
+            <a
+              href="https://www.youtube.com/channel/UCJnY4UaE5TFBRahx_DJHVyQ"
+              className="text-gray-400 hover:text-gray-500"
+            >
+              <span className="sr-only">Youtube</span>
               <svg
                 className="w-6 h-6"
                 aria-hidden="true"
                 fill="currentColor"
                 viewBox="0 0 24 24"
               >
-                <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"></path>
+                <path d="M21.582,6.186c-0.23-0.86-0.908-1.538-1.768-1.768C18.254,4,12,4,12,4S5.746,4,4.186,4.418 c-0.86,0.23-1.538,0.908-1.768,1.768C2,7.746,2,12,2,12s0,4.254,0.418,5.814c0.23,0.86,0.908,1.538,1.768,1.768 C5.746,20,12,20,12,20s6.254,0,7.814-0.418c0.861-0.23,1.538-0.908,1.768-1.768C22,16.254,22,12,22,12S22,7.746,21.582,6.186z M10,15.464V8.536L16,12L10,15.464z"></path>
               </svg>
             </a>
-            <a href="#" className="text-gray-400 hover:text-gray-500">
+            <a
+              href="https://github.com/KGEC-Robotics-Society"
+              className="text-gray-400 hover:text-gray-500"
+            >
               <span className="sr-only">GitHub</span>
               <svg
                 className="w-6 h-6"
@@ -112,19 +125,18 @@ export default function () {
                 ></path>
               </svg>
             </a>
-            <a href="#" className="text-gray-400 hover:text-gray-500">
-              <span className="sr-only">Dribbble</span>
+            <a
+              href="https://www.linkedin.com/company/kgecrs/mycompany/"
+              className="text-gray-400 hover:text-gray-500"
+            >
+              <span className="sr-only">LinkedIn</span>
               <svg
-                className="w-6 h-6"
+                className="w-6 h-6 p-0.5"
                 aria-hidden="true"
                 fill="currentColor"
                 viewBox="0 0 24 24"
               >
-                <path
-                  fillRule="evenodd"
-                  d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c5.51 0 10-4.48 10-10S17.51 2 12 2zm6.605 4.61a8.502 8.502 0 011.93 5.314c-.281-.054-3.101-.629-5.943-.271-.065-.141-.12-.293-.184-.445a25.416 25.416 0 00-.564-1.236c3.145-1.28 4.577-3.124 4.761-3.362zM12 3.475c2.17 0 4.154.813 5.662 2.148-.152.216-1.443 1.941-4.48 3.08-1.399-2.57-2.95-4.675-3.189-5A8.687 8.687 0 0112 3.475zm-3.633.803a53.896 53.896 0 013.167 4.935c-3.992 1.063-7.517 1.04-7.896 1.04a8.581 8.581 0 014.729-5.975zM3.453 12.01v-.26c.37.01 4.512.065 8.775-1.215.25.477.477.965.694 1.453-.109.033-.228.065-.336.098-4.404 1.42-6.747 5.303-6.942 5.629a8.522 8.522 0 01-2.19-5.705zM12 20.547a8.482 8.482 0 01-5.239-1.8c.152-.315 1.888-3.656 6.703-5.337.022-.01.033-.01.054-.022a35.318 35.318 0 011.823 6.475 8.4 8.4 0 01-3.341.684zm4.761-1.465c-.086-.52-.542-3.015-1.659-6.084 2.679-.423 5.022.271 5.314.369a8.468 8.468 0 01-3.655 5.715z"
-                  clipRule="evenodd"
-                ></path>
+                <path d="M 21.800781 0 L 2.199219 0 C 1 0 0 1 0 2.199219 L 0 21.800781 C 0 23 1 24 2.199219 24 L 21.800781 24 C 23 24 24 23 24 21.800781 L 24 2.199219 C 24 1 23 0 21.800781 0 Z M 7 20 L 3 20 L 3 9 L 7 9 Z M 5 7.699219 C 3.800781 7.699219 3 6.898438 3 5.898438 C 3 4.800781 3.800781 4 5 4 C 6.199219 4 7 4.800781 7 5.800781 C 7 6.898438 6.199219 7.699219 5 7.699219 Z M 21 20 L 17 20 L 17 14 C 17 12.398438 15.898438 12 15.601563 12 C 15.300781 12 14 12.199219 14 14 C 14 14.199219 14 20 14 20 L 10 20 L 10 9 L 14 9 L 14 10.601563 C 14.601563 9.699219 15.601563 9 17.5 9 C 19.398438 9 21 10.5 21 14 Z"></path>
               </svg>
             </a>
           </div>

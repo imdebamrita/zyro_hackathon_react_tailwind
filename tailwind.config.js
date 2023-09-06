@@ -38,7 +38,19 @@ module.exports = {
         '900': '9',
       },
     },
+    fontFamily: {
+      'sans': ['ui-sans-serif', 'system-ui'],
+      'serif': ['ui-serif', 'Georgia'],
+      'mono': ['ui-monospace', 'SFMono-Regular'],
+      'display': ['Oswald'],
+      'body': ['Orbitron', 'sans-serif'],
+    },
   },
   plugins: [],
 }
 
+
+// Titillium Web
+// Orbitron
+// Roboto Mono
+// Raleway

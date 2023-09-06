@@ -7,7 +7,7 @@ export default function Timeline() {
     <>
       <div
         id="timeline_section"
-        className="flex flex-col h-[calc(100vh)] sm:h-[calc(50vh)] justify-center items-center text-white"
+        className="flex flex-col h-[calc(150vh)] sm:h-[calc(50vh)] justify-center items-center text-white"
       >
         <h2 className="text-4xl font-bold my-16 sm:mt-24 mb-8">Timeline</h2>
 
@@ -16,7 +16,7 @@ export default function Timeline() {
             return (
               <li
                 key={timeline.id}
-                className="relative mb-6 sm:mb-0 backdrop-blur-sm bg-black/50"
+                className="relative mb-6 pb-1 sm:mb-0 backdrop-blur-sm bg-black/50 rounded-md sm:rounded-none"
               >
                 <div className="flex items-center">
                   <div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
@@ -32,7 +32,7 @@ export default function Timeline() {
                   </div>
                   <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
                 </div>
-                <div className="mt-3 sm:pr-8">
+                <div className="mt-1 sm:mt-3 sm:pr-8">
                   <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
                     {timeline.title}
                   </h3>

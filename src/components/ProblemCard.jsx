@@ -3,19 +3,17 @@ import React from "react";
 export default function ProblemCard(problem) {
   return (
     <div className="flex flex-col justify-center items-center m-5 max-w-sm backdrop-blur-sm bg-black/50  border-gray-200 rounded-lg shadow">
-      <a href="#">
-        <img
-          className="w-[calc(70vw)] sm:w-[calc(20vw)]"
-          src={problem.logo}
-          alt={problem.alt}
-        />
-      </a>
+      <img
+        className="w-[calc(70vw)] sm:w-[calc(20vw)]"
+        src={problem.logo}
+        alt={problem.alt}
+      />
+
       <div className="p-5">
-        <a href="#">
-          <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
-            {problem.title}
-          </h5>
-        </a>
+        <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+          {problem.title}
+        </h5>
+
         <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
           {problem.description}
         </p>
