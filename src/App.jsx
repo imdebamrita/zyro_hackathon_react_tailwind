@@ -59,8 +59,21 @@ function App() {
     const starts = document.getElementById("starts");
     const text = document.getElementById("text");
     const music = document.getElementById("music");
+    const music_btn = document.getElementById("music_btn");
 
     if (music.paused) {
+      music_btn.innerHTML = `<svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      id="musicnote"
+    >
+      <path fill="none" d="M0 0h24v24H0V0z"></path>
+      <path
+        d="M12 5v8.55c-.94-.54-2.1-.75-3.33-.32-1.34.48-2.37 1.67-2.61 3.07-.46 2.74 1.86 5.08 4.59 4.65 1.96-.31 3.35-2.11 3.35-4.1V7h2c1.1 0 2-.9 2-2s-.9-2-2-2h-2c-1.1 0-2 .9-2 2z"
+        fill="#ffffff"
+        className="color000000 svgShape"
+      ></path>
+    </svg>`;
       music.play();
     }
 
@@ -94,7 +107,7 @@ function App() {
         id="music_btn"
         onClick={play_toggle}
         title="Contact Sale"
-        className="fixed z-90 top-8 right-8  w-5 h-5 rounded-full drop-shadow-lg flex justify-center items-center text-white text-4xl hover:text-gray-500 hover:drop-shadow-2xlduration-100"
+        className="fixed z-90 top-4 right-4  w-5 h-5 rounded-full drop-shadow-lg flex justify-center items-center text-white text-4xl hover:text-gray-500 opacity-50 active:opacity-25"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -131,7 +144,7 @@ function App() {
         >
           <source id="video_src" src={stars_desktop} type="video/mp4" />
         </video>
-        <audio id="music">
+        <audio id="music" loop>
           <source src={inception} type="audio/mpeg" />
           Your browser does not support the html audio tag.
         </audio>
@@ -159,7 +172,7 @@ function App() {
         <Timeline />
         <Problems />
         <Criteria />
-        {/* <Prize /> */}
+        <Prize />
         <Faq />
         <Footer />
       </div>

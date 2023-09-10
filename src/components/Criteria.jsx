@@ -9,7 +9,7 @@ export default function Criteria() {
     >
       <h2 className="text-4xl font-bold my-16 sm:mt-24 mb-8">Criteria</h2>
 
-      <div className="m-5 sm:mx-64 p-3 backdrop-blur-sm bg-black/50 rounded-xl">
+      <div className="m-5 lg:mx-64 p-3 backdrop-blur-sm bg-black/50 rounded-xl">
         <div className="my-6 ">
           <h4 className="font-semibold">Team Size</h4>
           <h4>{data.criteria.team_size}</h4>
