@@ -22,7 +22,6 @@ function App() {
     const music_btn = document.getElementById("music_btn");
 
     if (music.paused) {
-      console.log(music.innerHTML);
       music_btn.innerHTML = `<svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 24 24"
